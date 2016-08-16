@@ -1,0 +1,6 @@
+A Distributed Stream Library for Java 8
+
+Directory contents:
+dstream - Distributed Stream implementation (chapter 6) and evaluation workloads (chapter 7).
+stored  - Stored Collection implementation and evaluation workloads (chapter 4).
+stream  - Data locality evaluation of Java 8 Streams (chapter 4).

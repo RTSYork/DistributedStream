@@ -1,0 +1,18 @@
+Requires the following classes from the PJ2 (Parallel Java 2) Library [1]:
+edu.rit.crypto.HashFunction
+edu.rit.util.Hex
+edu.rit.util.Packing
+edu.rit.crypto.SHA256
+
+[1] URL: https://www.cs.rit.edu/~ark/pj2.shtml
+
+Shell scripts:
+run1.sh - for executing HStream1.class and HStored1.class
+run2.sh - for executing HStream2.class and HStored2.class
+run3.sh - for executing HStream3.class and HStored3.class
+
+write: prepares the input file for the experiments.
+
+numa: obtains memory access times on each CPU.
+
+Makefile: builds ThreadAffinity.so, write and numa.

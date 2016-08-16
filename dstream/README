@@ -1,0 +1,9 @@
+Change the line in mpj-v#_##/src/xdev/hybdev/HYBDevice.java from:
+	 Thread.currentThread().sleep(2000);
+to:
+	 Thread.currentThread().sleep(20);
+
+Then build with:
+	$ ant compile
+	$ ant jars
+	$ tar czf mpj-v#_##.tar.gz mpj-v#_##/
